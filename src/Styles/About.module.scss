@@ -1,0 +1,36 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  .verticalline {
+    border: none;
+    width: 2px;
+    height: 20px;
+    background-color: #4289cf;
+  }
+  h5 {
+    color: #4289cf;
+    font-weight: bold;
+  }
+}
+.toptext {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(19, 16, 16);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.lowtext {
+  color: rgb(85, 81, 81);
+  margin-bottom: 10px;
+}
+
+.lastdiv {
+  margin-top: 50px;
+  button {
+    padding: 13px 45px;
+    background-color: #2994ff;
+    border-radius: 50px;
+  }
+}

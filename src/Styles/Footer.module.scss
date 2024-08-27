@@ -1,0 +1,98 @@
+.foo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  gap: 20px;
+  padding: 60px 100px;
+  background-color: rgb(212, 243, 243);
+  @media (max-width: 1000px) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 20px;
+  }
+  @media (max-width: 650px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 20px;
+  }
+  @media (max-width: 480px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px 20px;
+  }
+  .firstdiv {
+    p {
+      color: gray;
+      font-size: 12px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      span {
+        color: black;
+      }
+    }
+    div {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      p {
+        background-color: white;
+        padding: 10px;
+        border-radius: 50%;
+        color: #3280cd;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        .icon {
+          size: 30px;
+        }
+      }
+      p:hover {
+        background-color: #3280cd;
+        color: white;
+      }
+    }
+  }
+  .treediv {
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    ul {
+      margin-top: 20px;
+      li {
+        margin-top: 10px;
+        cursor: pointer;
+        color: rgb(114, 109, 109);
+        font-size: 14px;
+        transition: 0.3s ease-in-out;
+      }
+      li:hover {
+        color: #3280cd;
+        transform: translateX(5px);
+      }
+    }
+  }
+  .locdiv {
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    div {
+      margin-top: 20px;
+      div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .locicon {
+          font-size: 15px;
+          color: #3280cd;
+        }
+        p {
+          font-size: 14px;
+          color: rgb(114, 109, 109);
+        }
+      }
+    }
+  }
+}

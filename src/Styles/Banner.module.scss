@@ -1,0 +1,97 @@
+.mainbanner {
+  background-color: rgb(229, 238, 247);
+  .subbanner {
+    max-width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    @media (max-width: 950px) {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 40px;
+    }
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 10px;
+    }
+    .firstdiv {
+      width: 50%;
+      @media (max-width: 950px) {
+        width: 100%;
+      }
+      .title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        .verticalline {
+          border: none;
+          width: 2px;
+          height: 20px;
+          background-color: #4289cf;
+        }
+        h5 {
+          color: #4289cf;
+          font-weight: bold;
+        }
+      }
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(19, 16, 16);
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      p {
+        color: rgb(85, 81, 81);
+        margin-bottom: 10px;
+      }
+      button {
+        color: white;
+        padding: 13px 45px;
+        background-color: #2994ff;
+        border-radius: 50px;
+        margin-top: 20px;
+      }
+      .views {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        @media (max-width: 600px) {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: start;
+          gap: 10px;
+        }
+        .viewdiv {
+          h1 {
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(19, 16, 16);
+            // margin-top: 10px;
+          }
+          p {
+            color: rgb(85, 81, 81);
+          }
+        }
+      }
+    }
+    .seconddiv {
+      width: 50%;
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+      Image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

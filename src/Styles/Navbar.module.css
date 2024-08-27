@@ -1,0 +1,96 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 100px;
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(66, 137, 207, 0.1);
+}
+@media (max-width: 900px) {
+  .nav {
+    padding: 13px 20px;
+  }
+}
+@media (max-width: 850px) {
+  .nav {
+    padding: 13px 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .nav {
+    padding: 13px 30px;
+  }
+}
+.nav Image {
+  width: 180px;
+  height: 180px;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  transition: 0.3s ease-in-out;
+  color: black;
+}
+@media (max-width: 800px) {
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    background-color: azure;
+    top: 68px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 40px 0;
+    transform: scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav ul li {
+    border-bottom: 1px solid #3280cd;
+    width: 20%;
+    text-align: center;
+  }
+}
+.nav ul li {
+  transition: 0.3s ease-in-out;
+}
+.nav ul li:hover {
+  color: #3280cd;
+}
+.nav .showNav {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.nav .navActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav .navActions button {
+  padding: 13px 45px;
+  background-color: #2994ff;
+  border-radius: 50px;
+}
+@media (max-width: 800px) {
+  .nav .navActions {
+    display: none;
+  }
+}
+.nav .menuicon {
+  display: none;
+  size: 100px;
+  cursor: pointer;
+}
+@media (max-width: 799px) {
+  .nav .menuicon {
+    display: block;
+  }
+}/*# sourceMappingURL=Navbar.module.css.map */

@@ -1,0 +1,88 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 100px;
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  @media (max-width: 900px) {
+    padding: 13px 20px;
+  }
+  @media (max-width: 850px) {
+    padding: 13px 10px;
+  }
+  @media (max-width: 1000px) {
+    padding: 13px 30px;
+  }
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(66, 137, 207, 0.1);
+
+  Image {
+    width: 180px;
+    height: 180px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    transition: 0.3s ease-in-out;
+    color: black;
+    @media (max-width: 800px) {
+      // display: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: fixed;
+      background-color: azure;
+      top: 68px;
+      width: 100%;
+      left: 0;
+      right: 0;
+      padding: 40px 0;
+      transform: scale(0.5);
+      opacity: 0;
+      visibility: hidden;
+      li {
+        border-bottom: 1px solid #3280cd;
+        width: 20%;
+        text-align: center;
+      }
+    }
+    li {
+      transition: 0.3s ease-in-out;
+    }
+
+    li:hover {
+      color: #3280cd;
+    }
+  }
+  .showNav {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+  .navActions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    button {
+      padding: 13px 45px;
+      background-color: #2994ff;
+      border-radius: 50px;
+    }
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+  .menuicon {
+    display: none;
+    size: 100px;
+    cursor: pointer;
+
+    @media (max-width: 799px) {
+      display: block;
+    }
+  }
+}
