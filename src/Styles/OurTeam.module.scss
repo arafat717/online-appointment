@@ -1,0 +1,180 @@
+.maindiv {
+  max-width: 1450px;
+  margin: 80px auto;
+  padding: 0 100px;
+  @media (max-width: 1200px) {
+    padding: 0 80px;
+  }
+  @media (max-width: 850px) {
+    padding: 0 60px;
+  }
+  @media (max-width: 660px) {
+    padding: 0 40px;
+  }
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    .verticalline {
+      border: none;
+      width: 2px;
+      height: 20px;
+      background-color: #4289cf;
+    }
+    h5 {
+      color: #4289cf;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .toptext {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(19, 16, 16);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    @media (max-width: 1200px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 10px;
+    }
+    @media (max-width: 850px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 10px;
+    }
+    @media (max-width: 660px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: 10px;
+    }
+    .card {
+      position: relative;
+      max-width: 290px;
+      background: #4289cf;
+      border-radius: 10px;
+      color: white;
+      transition: 0.5s ease-in-out;
+      .socialicons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #4289cf;
+        position: absolute;
+        top: 20%;
+        right: 10px;
+        padding: 8px;
+        border-radius: 20px;
+        visibility: hidden;
+        transform: scale(0.1);
+        opacity: 0.5;
+        transition: 0.5s ease-in-out;
+        p {
+          color: white;
+          padding: 8px;
+          border-radius: 50px;
+          cursor: pointer;
+          transition: 0.3s ease-in-out;
+          .singleicon {
+            font-size: 14px;
+          }
+        }
+        p:hover {
+          background-color: white;
+          color: #4289cf;
+          padding: 8px;
+          border-radius: 50px;
+          cursor: pointer;
+          .singleicon {
+            font-size: 14px;
+          }
+        }
+      }
+      .imgaeOpacity {
+        position: relative;
+        .image {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          height: 265px;
+          width: 290px;
+        }
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #4289cf;
+          opacity: 0.05;
+          z-index: 0.5;
+          visibility: hidden;
+          transition: 0.5s ease-in-out;
+          transform: scale(0.9);
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+      }
+      .cardbody {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        div {
+          h1 {
+            font-size: 17px;
+            font-weight: bold;
+          }
+          p {
+            font-size: 13px;
+            margin: 4px 0;
+          }
+          div {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            p {
+              .plusicon {
+                font-size: 22px;
+              }
+            }
+          }
+        }
+        .faicon {
+          cursor: pointer;
+          p {
+            background-color: white;
+            color: #4289cf;
+            padding: 8px;
+            border-radius: 50px;
+            .icon {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+    .card:hover {
+      background-color: #00a86e;
+      .socialicons {
+        visibility: visible;
+        transform: scale(1);
+        opacity: 1;
+      }
+      .imgaeOpacity {
+        .overlay {
+          visibility: visible;
+          transform: scale(1);
+          opacity: 0.4;
+        }
+      }
+    }
+  }
+}

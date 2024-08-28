@@ -42,9 +42,6 @@
 
     .allprocess {
       margin-top: 70px;
-      // display: flex;
-      // align-items: center;
-      // justify-content: space-evenly;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       @media (max-width: 950px) {
