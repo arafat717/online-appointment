@@ -1,0 +1,186 @@
+.maindiv {
+  max-width: 1450px;
+  margin: 80px auto;
+  padding: 0 100px;
+}
+@media (max-width: 1200px) {
+  .maindiv {
+    padding: 0 80px;
+  }
+}
+@media (max-width: 850px) {
+  .maindiv {
+    padding: 0 60px;
+  }
+}
+@media (max-width: 660px) {
+  .maindiv {
+    padding: 0 40px;
+  }
+}
+.maindiv .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.maindiv .title .verticalline {
+  border: none;
+  width: 2px;
+  height: 20px;
+  background-color: #4289cf;
+}
+.maindiv .title h5 {
+  color: #4289cf;
+  font-weight: bold;
+  font-size: 20px;
+}
+.maindiv .toptext {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(19, 16, 16);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.maindiv .cardcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+@media (max-width: 1200px) {
+  .maindiv .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+  }
+}
+@media (max-width: 850px) {
+  .maindiv .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+}
+@media (max-width: 660px) {
+  .maindiv .cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+}
+.maindiv .cardcontainer .card {
+  position: relative;
+  max-width: 290px;
+  background: #4289cf;
+  border-radius: 10px;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.maindiv .cardcontainer .card .socialicons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #4289cf;
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  padding: 8px;
+  border-radius: 20px;
+  visibility: hidden;
+  transform: scale(0.1);
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+}
+.maindiv .cardcontainer .card .socialicons p {
+  color: white;
+  padding: 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.maindiv .cardcontainer .card .socialicons p .singleicon {
+  font-size: 14px;
+}
+.maindiv .cardcontainer .card .socialicons p:hover {
+  background-color: white;
+  color: #4289cf;
+  padding: 8px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.maindiv .cardcontainer .card .socialicons p:hover .singleicon {
+  font-size: 14px;
+}
+.maindiv .cardcontainer .card .imgaeOpacity {
+  position: relative;
+}
+.maindiv .cardcontainer .card .imgaeOpacity .image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 265px;
+  width: 290px;
+}
+.maindiv .cardcontainer .card .imgaeOpacity .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4289cf;
+  opacity: 0.05;
+  z-index: 0.5;
+  visibility: hidden;
+  transition: 0.5s ease-in-out;
+  transform: scale(0.9);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.maindiv .cardcontainer .card .cardbody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.maindiv .cardcontainer .card .cardbody div h1 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.maindiv .cardcontainer .card .cardbody div p {
+  font-size: 13px;
+  margin: 4px 0;
+}
+.maindiv .cardcontainer .card .cardbody div div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.maindiv .cardcontainer .card .cardbody div div p .plusicon {
+  font-size: 22px;
+}
+.maindiv .cardcontainer .card .cardbody .faicon {
+  cursor: pointer;
+}
+.maindiv .cardcontainer .card .cardbody .faicon p {
+  background-color: white;
+  color: #4289cf;
+  padding: 8px;
+  border-radius: 50px;
+}
+.maindiv .cardcontainer .card .cardbody .faicon p .icon {
+  font-size: 19px;
+}
+.maindiv .cardcontainer .card:hover {
+  background-color: #00a86e;
+}
+.maindiv .cardcontainer .card:hover .socialicons {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+}
+.maindiv .cardcontainer .card:hover .imgaeOpacity .overlay {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 0.4;
+}/*# sourceMappingURL=OurTeam.module.css.map */

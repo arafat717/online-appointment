@@ -1,0 +1,138 @@
+.maindiv {
+  background: #dee9f3;
+}
+.maindiv .subdiv {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 100px;
+  padding-bottom: 100px;
+}
+@media (max-width: 950px) {
+  .maindiv .subdiv {
+    padding: 0 30px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 760px) {
+  .maindiv .subdiv {
+    padding: 0 20px;
+    padding-bottom: 10px;
+  }
+}
+.maindiv .subdiv .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.maindiv .subdiv .title .verticalline {
+  border: none;
+  width: 2px;
+  height: 20px;
+  background-color: #4289cf;
+}
+.maindiv .subdiv .title h5 {
+  color: #4289cf;
+  font-weight: bold;
+  font-size: 20px;
+}
+.maindiv .subdiv .toptext {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(19, 16, 16);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.maindiv .subdiv .allprocess {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 950px) {
+  .maindiv .subdiv .allprocess {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    padding: 0 20px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 760px) {
+  .maindiv .subdiv .allprocess {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+}
+.maindiv .subdiv .allprocess .process .divone {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(55, 122, 55);
+  border-radius: 50%;
+}
+.maindiv .subdiv .allprocess .process .divone p {
+  display: block;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.maindiv .subdiv .allprocess .process .divtwo {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  background-color: #4289cf;
+  border-radius: 50%;
+}
+.maindiv .subdiv .allprocess .process .divtwo p {
+  display: block;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.maindiv .subdiv .allprocess .process .divthree {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(184, 64, 134);
+  border-radius: 50%;
+}
+.maindiv .subdiv .allprocess .process .divthree p {
+  display: block;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.maindiv .subdiv .allprocess .process .divfour {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(140, 91, 204);
+  border-radius: 50%;
+}
+.maindiv .subdiv .allprocess .process .divfour p {
+  display: block;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.maindiv .subdiv .allprocess .process h2 {
+  font-size: 20px;
+  margin-top: 18px;
+  font-weight: bold;
+}
+.maindiv .subdiv .allprocess .process p {
+  font-size: 16px;
+  color: rgb(95, 90, 90);
+  margin-top: 18px;
+}/*# sourceMappingURL=HowWeWork.module.css.map */

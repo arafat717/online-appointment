@@ -1,0 +1,114 @@
+.mainservice {
+  background-color: #dde7f1;
+}
+.mainservice .subservice {
+  max-width: 1450px;
+  padding: 100px 100px;
+  margin: 0 auto;
+}
+@media (max-width: 950px) {
+  .mainservice .subservice {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20 20px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 760px) {
+  .mainservice .subservice {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    padding: 20px 20px;
+    gap: 20px;
+  }
+}
+.mainservice .subservice .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.mainservice .subservice .title .verticalline {
+  border: none;
+  width: 2px;
+  height: 20px;
+  background-color: #4289cf;
+}
+.mainservice .subservice .title h5 {
+  color: #4289cf;
+  font-weight: bold;
+  font-size: 20px;
+}
+.mainservice .subservice .toptext {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(19, 16, 16);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.mainservice .cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 40px auto;
+}
+@media (max-width: 950px) {
+  .mainservice .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    padding: 0 20px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 760px) {
+  .mainservice .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+}
+.mainservice .cardContainer .card {
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.mainservice .cardContainer .card .iconstyle .icon {
+  position: absolute;
+  font-size: 50px;
+  background: #4289cf;
+  padding: 12px;
+  color: white;
+  border-radius: 10px;
+  right: 30px;
+  top: 160px;
+}
+.mainservice .cardContainer .card .cardbody h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(26, 22, 22);
+  margin-top: 20px;
+}
+.mainservice .cardContainer .card .cardbody p {
+  font-size: 15px;
+  color: rgb(87, 78, 78);
+  margin-top: 10px;
+}
+.mainservice .cardContainer .card button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+}
+.mainservice .cardContainer .card button:hover {
+  color: #4289cf;
+}
+.mainservice .cardContainer .card:hover {
+  transform: translateY(-10px);
+}/*# sourceMappingURL=OurService.module.css.map */

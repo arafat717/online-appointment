@@ -1,10 +1,11 @@
 import About from "@/components/About";
 import ApplyForFree from "@/components/ApplyForFree";
 import Banner from "@/components/Banner";
+import BlogSection from "@/components/BlogSection";
+import Emargency from "@/components/Emargency";
 import HowWeWork from "@/components/HowWeWork";
 import OurService from "@/components/OurService";
 import OurTeam from "@/components/OurTeam";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,9 +13,11 @@ export default function Home() {
       <Banner></Banner>
       <About></About>
       <OurService></OurService>
-      <HowWeWork></HowWeWork>
       <ApplyForFree></ApplyForFree>
+      <HowWeWork></HowWeWork>
       <OurTeam></OurTeam>
+      <Emargency></Emargency>
+      <BlogSection></BlogSection>
     </div>
   );
 }
