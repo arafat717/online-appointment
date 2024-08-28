@@ -17,7 +17,7 @@ const HowWeWork = () => {
             <div className={work.divone}>
               <p>01</p>
             </div>
-            <h2>fill the form</h2>
+            <h2>Fill the form</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
               quia
@@ -25,9 +25,9 @@ const HowWeWork = () => {
           </div>
           <div className={work.process}>
             <div className={work.divtwo}>
-              <p>01</p>
+              <p>02</p>
             </div>
-            <h2>fill the form</h2>
+            <h2>Book an Appointment</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
               quia
@@ -35,9 +35,9 @@ const HowWeWork = () => {
           </div>
           <div className={work.process}>
             <div className={work.divthree}>
-              <p>01</p>
+              <p>03</p>
             </div>
-            <h2>fill the form</h2>
+            <h2>Check-Ups</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
               quia
@@ -45,9 +45,9 @@ const HowWeWork = () => {
           </div>
           <div className={work.process}>
             <div className={work.divfour}>
-              <p>01</p>
+              <p>04</p>
             </div>
-            <h2>fill the form</h2>
+            <h2>Get Reports</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
               quia

@@ -5,6 +5,14 @@
     margin: 0 auto;
     padding: 0 100px;
     padding-bottom: 100px;
+    @media (max-width: 950px) {
+      padding: 0 30px;
+      padding-bottom: 10px;
+    }
+    @media (max-width: 760px) {
+      padding: 0 20px;
+      padding-bottom: 10px;
+    }
     .title {
       display: flex;
       flex-direction: row;
@@ -34,9 +42,22 @@
 
     .allprocess {
       margin-top: 70px;
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
+      // display: flex;
+      // align-items: center;
+      // justify-content: space-evenly;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      @media (max-width: 950px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+        padding: 0 20px;
+        margin: 0px auto;
+      }
+      @media (max-width: 760px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+      }
       gap: 20px;
       .process {
         .divone {

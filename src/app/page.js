@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import ApplyForFree from "@/components/ApplyForFree";
 import Banner from "@/components/Banner";
 import HowWeWork from "@/components/HowWeWork";
 import OurService from "@/components/OurService";
@@ -11,6 +12,7 @@ export default function Home() {
       <About></About>
       <OurService></OurService>
       <HowWeWork></HowWeWork>
+      <ApplyForFree></ApplyForFree>
     </div>
   );
 }
