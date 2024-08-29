@@ -29,8 +29,8 @@ const OurService = () => {
             <div className={service.cardbody}>
               <h1>Hotler Heart Surgery</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                aliquam.
+                Repair damaged valves, bypass blocked arteries, or treat
+                congenital heart conditions.
               </p>
             </div>
             <button>
@@ -48,8 +48,8 @@ const OurService = () => {
             <div className={service.cardbody}>
               <h1>Hotler Heart Surgery</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                aliquam.
+                Repair damaged valves, bypass blocked arteries, or treat
+                congenital heart conditions.
               </p>
             </div>
             <button>
@@ -67,8 +67,8 @@ const OurService = () => {
             <div className={service.cardbody}>
               <h1>Hotler Heart Surgery</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                aliquam.
+                Repair damaged valves, bypass blocked arteries, or treat
+                congenital heart conditions.
               </p>
             </div>
             <button>

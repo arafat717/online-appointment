@@ -19,8 +19,8 @@ const HowWeWork = () => {
             </div>
             <h2>Fill the form</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
-              quia
+              Repair damaged valves, bypass blocked arteries, or treat
+              congenital heart conditions.
             </p>
           </div>
           <div className={work.process}>
@@ -29,8 +29,8 @@ const HowWeWork = () => {
             </div>
             <h2>Book an Appointment</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
-              quia
+              Our commitment to excellence in cardiac surgery ensures.Our
+              commitment to excellence.
             </p>
           </div>
           <div className={work.process}>
@@ -39,8 +39,8 @@ const HowWeWork = () => {
             </div>
             <h2>Check-Ups</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
-              quia
+              Repair damaged valves, bypass blocked arteries, or treat
+              congenital heart conditions.
             </p>
           </div>
           <div className={work.process}>
@@ -49,8 +49,8 @@ const HowWeWork = () => {
             </div>
             <h2>Get Reports</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur ipsam adipisicing elit. Rem
-              quia
+              Our commitment to excellence in cardiac surgery ensures.Our
+              commitment to excellence.
             </p>
           </div>
         </div>

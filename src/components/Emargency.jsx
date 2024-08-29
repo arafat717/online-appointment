@@ -16,9 +16,9 @@ const Emargency = () => {
           </div>
           <h1 className={emergency.toptext}>Need Emergency Contact</h1>
           <p className={emergency.lowtext}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum susp endisse ultrices gravida tempor incididu ut labore.
+            Whether you are scheduling a visit with a healthcare provider,
+            reserving a service, or setting up a consultation, we make it easy
+            to book, manage, and track your appointments online.
           </p>
           <div className="mt-10">
             <div className="flex items-center gap-2">

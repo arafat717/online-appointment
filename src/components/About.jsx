@@ -33,10 +33,9 @@ const About = () => {
           The Great Place of Medical Hospital Center.
         </h1>
         <p className={about.lowtext}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          susp endisse ultrices gravida tempor incididu ut labore et dolore
-          magna aliqua. Quis ipsum susp endisse ultrices gravida.
+          Effortlessly manage your appointments with our seamless booking
+          system. Enjoy instant scheduling, simple modifications, and secure,
+          stress-free bookings—all at your fingertips.
         </p>
         <div className="grid grid-cols-2 gap-4 mt-10">
           <div className="flex items-center gap-2">

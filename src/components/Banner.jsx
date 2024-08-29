@@ -16,8 +16,9 @@ const Banner = () => {
             We Are Committed <br /> To Your Health
           </h1>
           <p>
-            It is a established fact that a reader will be distracted by the
-            content of a page when looking at this layout.
+            Book Your Appointments Anytime, Anywhere. Hassle-Free Online Booking
+            for Your Convenience .Your One-Stop Solution for Easy Appointment
+            Scheduling.
           </p>
           <button>Meet A Doctor</button>
           <div className={banner.views}>

@@ -1,0 +1,66 @@
+.maindiv {
+  max-width: 1450px;
+  margin: 80px auto;
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  @media (max-width: 950px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20 20px;
+    margin: 20px auto;
+  }
+  @media (max-width: 760px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px auto;
+    padding: 20px 20px;
+    gap: 20px;
+  }
+  .contactdiv {
+    padding: 20px;
+    border: 0.1px solid gray;
+    border-radius: 10px;
+    p {
+      .icons1 {
+        background-color: palevioletred;
+        color: white;
+        font-size: 56px;
+        padding: 15px;
+        border-radius: 50px;
+      }
+      .icons2 {
+        background-color: #4289cf;
+        color: white;
+        font-size: 56px;
+        padding: 15px;
+        border-radius: 50px;
+      }
+      .icons3 {
+        background-color: rgb(148, 148, 38);
+        color: white;
+        font-size: 56px;
+        padding: 15px;
+        border-radius: 50px;
+      }
+      .icons4 {
+        background-color: rgb(59, 201, 59);
+        color: white;
+        font-size: 56px;
+        padding: 15px;
+        border-radius: 50px;
+      }
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 15px;
+      color: gray;
+      margin-top: 10px;
+    }
+  }
+}
