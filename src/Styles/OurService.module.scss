@@ -1,22 +1,11 @@
 .mainservice {
   background-color: #dde7f1;
-  .subservice {
+  padding: 50px 0;
+
+  .subdiv {
     max-width: 1450px;
-    padding: 100px 100px;
+    padding: 0 100px;
     margin: 0 auto;
-    @media (max-width: 950px) {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      padding: 20 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 760px) {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      margin: 0 auto;
-      padding: 20px 20px;
-      gap: 20px;
-    }
     .title {
       display: flex;
       flex-direction: row;
@@ -43,71 +32,78 @@
       margin-bottom: 10px;
       text-align: center;
     }
-  }
-  .cardContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 auto;
-    padding: 0 auto;
-    gap: 20px;
-    margin: 40px auto;
-    @media (max-width: 950px) {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2px;
-      padding: 0 20px;
-      margin: 0px auto;
-    }
-    @media (max-width: 760px) {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      margin: 0 auto;
-    }
 
-    .card {
-      background-color: white;
-      width: 300px;
-      padding: 15px;
-      border-radius: 8px;
-      position: relative;
-      transition: 0.3s ease-in-out;
-      .iconstyle {
-        .icon {
-          position: absolute;
-          font-size: 50px;
-          background: #4289cf;
-          padding: 12px;
-          color: white;
-          border-radius: 10px;
-          right: 30px;
-          top: 160px;
-        }
-      }
-      .cardbody {
-        h1 {
-          font-size: 20px;
-          font-weight: bold;
-          color: rgb(26, 22, 22);
-          margin-top: 20px;
-        }
-        p {
-          font-size: 15px;
-          color: rgb(87, 78, 78);
-          margin-top: 10px;
-        }
-      }
-      button {
-        display: flex;
+    .cardContainer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+      @media (max-width: 1350px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
         align-items: center;
+        padding: 10px 100px;
         gap: 10px;
-        margin-top: 10px;
+      }
+      @media (max-width: 821px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 80px;
+      }
+      @media (max-width: 660px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 60px;
+      }
+
+      .card {
+        background-color: white;
+        width: 300px;
+        padding: 15px;
+        border-radius: 8px;
+        position: relative;
         transition: 0.3s ease-in-out;
+        .iconstyle {
+          .icon {
+            position: absolute;
+            font-size: 50px;
+            background: #4289cf;
+            padding: 12px;
+            color: white;
+            border-radius: 10px;
+            right: 30px;
+            top: 160px;
+          }
+        }
+        .cardbody {
+          h1 {
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(26, 22, 22);
+            margin-top: 20px;
+          }
+          p {
+            font-size: 15px;
+            color: rgb(87, 78, 78);
+            margin-top: 10px;
+          }
+        }
+        button {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-top: 10px;
+          transition: 0.3s ease-in-out;
+        }
+        button:hover {
+          color: #4289cf;
+        }
       }
-      button:hover {
-        color: #4289cf;
+      .card:hover {
+        transform: translateY(-10px);
       }
-    }
-    .card:hover {
-      transform: translateY(-10px);
     }
   }
 }

@@ -12,7 +12,7 @@ import { GiMedicines } from "react-icons/gi";
 const OurService = () => {
   return (
     <div className={service.mainservice}>
-      <div className={service.subservice}>
+      <div className={service.subdiv}>
         <div className={service.verticalline}>
           <div className={service.title}>
             <hr className={service.verticalline} />
@@ -21,6 +21,25 @@ const OurService = () => {
           <h1 className={service.toptext}>Our madical service</h1>
         </div>
         <div className={service.cardContainer}>
+          <div className={service.card}>
+            <Image src={img1} width={300} height={300} alt="card image"></Image>
+            <p className={service.iconstyle}>
+              <FaHeartPulse className={service.icon}></FaHeartPulse>
+            </p>
+            <div className={service.cardbody}>
+              <h1>Hotler Heart Surgery</h1>
+              <p>
+                Repair damaged valves, bypass blocked arteries, or treat
+                congenital heart conditions.
+              </p>
+            </div>
+            <button>
+              Read More{" "}
+              <span>
+                <FaArrowRightLong></FaArrowRightLong>
+              </span>
+            </button>
+          </div>
           <div className={service.card}>
             <Image src={img1} width={300} height={300} alt="card image"></Image>
             <p className={service.iconstyle}>

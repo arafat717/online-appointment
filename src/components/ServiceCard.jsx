@@ -12,7 +12,7 @@ import { GiMedicines } from "react-icons/gi";
 const ServiceCard = () => {
   return (
     <div className={service.mainservice}>
-      <div className={service.subservice}>
+      <div className={service.subdiv}>
         <div className={service.verticalline}>
           <div className={service.title}>
             <hr className={service.verticalline} />

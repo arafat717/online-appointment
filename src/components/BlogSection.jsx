@@ -76,7 +76,7 @@ const BlogSection = () => {
         </div>
         <div className={blog.card}>
           <div className={blog.imagestyle}>
-            <Image src={img1} width={300} height={300} alt="img one"></Image>
+            <Image src={img2} width={300} height={300} alt="img one"></Image>
           </div>
           <div className={blog.cardbody}>
             <div className={blog.icondiv}>
@@ -126,7 +126,7 @@ const BlogSection = () => {
         </div>
         <div className={blog.card}>
           <div className={blog.imagestyle}>
-            <Image src={img1} width={290} height={300} alt="img one"></Image>
+            <Image src={img3} width={290} height={300} alt="img one"></Image>
           </div>
           <div className={blog.cardbody}>
             <div className={blog.icondiv}>
